@@ -1,20 +1,20 @@
-# agentmd
+# agentsmd
 
 Keeps `AGENTS.md`, `CLAUDE.md`, and `GEMINI.md` in sync by making `AGENTS.md` the source of truth and the others symlinks to it.
 
 ## Install
 
 ```sh
-go install github.com/joargp/agentmd@latest
+go install github.com/joargp/agentsmd@latest
 ```
 
-Or download a binary from [releases](https://github.com/joargp/agentmd/releases).
+Or download a binary from [releases](https://github.com/joargp/agentsmd/releases).
 
 ## Usage
 
 ```sh
-agentmd          # fix state: create AGENTS.md + symlinks as needed
-agentmd --check  # exit 1 if state is wrong, change nothing
+agentsmd          # fix state: create AGENTS.md + symlinks as needed
+agentsmd --check  # exit 1 if state is wrong, change nothing
 ```
 
 Result:
